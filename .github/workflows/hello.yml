@@ -13,7 +13,7 @@ jobs:
         run: echo "Hello from GitHub Actions!"
 
       - name: Show Python version
-        run: python --versi
+        run: python --version
 
       - name: Show who triggered this
         run: echo "Triggered by ${{ github.actor }} on branch ${{ github.ref_name }}"
